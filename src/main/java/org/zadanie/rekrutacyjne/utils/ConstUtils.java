@@ -26,4 +26,5 @@ public class ConstUtils {
     public static final Character CONST_CHARACTER_C = 'c';
     public static final Character CONST_CHARACTER_E = 'e';
     public static final String  EXCEPTION_MESSAGE_PLEASE_TRY_AGAIN = "Please try again";
+    public static final Character CONST_CHARACTER_DOT = '.';
 }

@@ -60,7 +60,8 @@ public class ReversePolishNotationService {
 
         for (Character character : equation.toCharArray()) {
             index = index + 1;
-            if (character.toString().matches(ConstUtils.REGEX_ACCEPTED_MATHEMATICAL_ELEMENTS)) {
+            if (character.toString().matches(ConstUtils.REGEX_ACCEPTED_MATHEMATICAL_ELEMENTS) ||
+                (character.compareTo(ConstUtils.CONST_CHARACTER_DOT) == 0)) {
                 currentNumber.append(character);
                 if (equation.length() == (index + 1)) {
                     onp.append(currentNumber).append(ConstUtils.CONST_CHARACTER_WHITE_SPACE);

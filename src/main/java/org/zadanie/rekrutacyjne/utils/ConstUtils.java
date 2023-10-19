@@ -19,7 +19,7 @@ public class ConstUtils {
     public static final String CONSOLE_MESSAGE_HASHTAGS = "##########: ";
     public static final String CONSOLE_MESSAGE_RESULTS = "Results: ";
     public static final String CONSOLE_MESSAGE_MATHEMATICAL_OPERATION = "Mathematical operation: ";
-    public static final String CONSOLE_MESSAGE_CALCULATE = "(c)calculate ";
+    public static final String CONSOLE_MESSAGE_CALCULATE = "(c)alculate ";
     public static final String CONSOLE_MESSAGE_EXIT = "(e)xit ";
     public static final String CONSOLE_MESSAGE_CALCULATOR = "calculator: ";
     public static final String EXCEPTION_MESSAGE_SOMETHING_WENT_WRONG = "Something went wrong, please contact your administrator.";

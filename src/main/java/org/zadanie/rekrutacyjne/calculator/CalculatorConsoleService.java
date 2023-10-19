@@ -15,7 +15,7 @@ public class CalculatorConsoleService {
     }
 
     public void printBadInputMessage() {
-        System.out.print(ConstUtils.CONSOLE_MESSAGE_ERROR_BAD_INPUT);
+        System.out.println(ConstUtils.CONSOLE_MESSAGE_ERROR_BAD_INPUT);
     }
 
     public void takeAndProcessUserInput(Scanner scanner, ReversePolishNotationService reversePolishNotationService) {
